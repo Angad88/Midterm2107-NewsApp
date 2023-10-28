@@ -1,0 +1,67 @@
+/* src/styles.css */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #59b5fc; /* Baby blue background */
+  min-height: 100vh; /* Ensure container takes at least full viewport height */
+}
+.top-headlines-card {
+  background-color: #1472ed;
+  border-radius: 10px;
+  padding: 0px;
+  margin-left: 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background-color: #ffffff; /* White cards */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author,
+.date {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news-item {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Drop shadow for headlines */
+  padding: 20px; /* Padding for headlines */
+}
